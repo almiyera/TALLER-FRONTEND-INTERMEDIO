@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="bg" src="img/bg.png" alt="">
+        <div class="menu container">
+            <a href="#" class="logo">Olivo Restaurante</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="img/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <ul>
+            <li class="submenu">
+                <img src="img/car.svg" id="img-carrito" alt="carrito">
+                <div id="carrito">
+                    <table id="lista-carrito">
+                        <thead>
+                            <tr>
+                                <th>Imagen</th>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                    <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                </div>
+            </li>
+        </ul>
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1> <span>Bienvenido</span> Disfruta nuestros platos</h1>
+                <p>
+                    Somos un restaurante de trayectoria en cuanto a comida saludable se refiere. Contamos con proyección a nivel nacional e internacional, 
+                    rebasamos las expectativas de nuestros clientes, brindamos un servicio de excelente calidad.
+                </p>
+                <a href="#" class="btn-1">Información</a>
+            </div>
+            <div class="header-img">
+                <img src="img/pl-1.png" alt="">
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="breakfast container">
+
+        <h2>Desayunos</h2>
+        <p>
+            Horario 8am - 11am
+        </p>
+
+        <div class="breakfast-content">
+
+        <div class="breakfast-1">
+            <img src="img/b1.png" alt="">
+            <h3>Sandwich</h3>
+        </div>
+    
+        <div class="breakfast-1">
+            <img src="img/b2.png" alt="">
+            <h3>Pancakes</h3>
+        </div>
+        <div class="breakfast-1">
+            <img src="img/b3.png" alt="">
+            <h3>Combos saludables</h3>
+        </div>
+        <div class="breakfast-1">
+            <img src="img/b4.png" alt="">
+            <h3>Ensaladas</h3>
+        </div>
+        </div>
+
+    </section>
+
+    <section class="info">
+
+        <img class="bg-2" src="img/bg-2.png" alt="">
+        <div class="info-content container">
+
+            <div class="info-img">
+                <img src="img/breakfast.png" alt="">
+            </div>
+
+            <div class="info-txt">
+                <h2>Productos de la mejor calidad</h2>
+                <p>
+                    Ingredientes frescos y saludables sin aditivos ni conservantes, preparados con técnicas culinarias 
+                    de vanguardia. Contamos con espacios acogedores para generar atmósferas adecuadas que complementen la experiencia culinaria.
+                 </p>
+                <a href="#" class="btn-1">Información</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <main class="products container">
+
+        <h2>Productos</h2>
+
+        <div class="box-container" id="lista-1">
+
+            <div class="box">
+                <img src="img/pla1.png" alt="">
+                <div class="product-txt">
+                    <h3>Paella marinera</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$45.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pla2.png" alt="">
+                <div class="product-txt">
+                    <h3>Huevos poché</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$28.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pla3.png" alt="">
+                <div class="product-txt">
+                    <h3>Ensalada rusa</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$25.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pla4.png" alt="">
+                <div class="product-txt">
+                    <h3>baby beef</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$30.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pla3.png" alt="">
+                <div class="Product-txt">
+                    <h3>Papas al perejil</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$20.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pla4.png" alt="">
+                <div class="product-txt">
+                    <h3>Rib eye</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$45.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="btn-2" id="load-more">Cargar más</div>
+    </main>
+    <section class="app container">
+        <div class="app-txt">
+            <h2>Descarga nuestra APP y descubre ofertas</h2>
+            <p>
+                Encuentra ofertas los fines de semana solicitando nuestros platos
+                a domicilio.
+                Disfruta de beneficios especiales por ser cliente de Olivo restaurante.
+            </p>
+            <div class="descarga">
+                <img src="img/store1.png" alt="">
+                <img src="img/store2.png" alt="">
+            </div>
+        </div>
+        <div class="app-img">
+            <img src="img/app.png" alt="">
+        </div>
+    </section>
+    <footer class="footer">
+       
+        <div class="footer-content container">
+
+            <div class="link">
+            <h3>Restaurantes</h3>
+            <ul>
+                <li><a href="#">Sobre el restaurante</a></li>
+                <li><a href="#">Trabaja con nosotros</a></li>
+                </ul>
+        </div>
+
+        <div class="link">
+            <h3>Contacto</h3>
+            <ul>
+                <li><a href="#">Contáctenos</a></li>
+                <li><a href="#">Acerca de nosotros</a></li>
+             </ul>
+        </div>
+
+        <div class="link">
+            <h3>Términos y condiciones</h3>
+            <ul>
+                <li><a href="#">Tratamiento de datos</a></li>
+                <li><a href="#">Políticas de transparencia</a></li>
+             </ul>
+        </div>
+        
+        <div class="link">
+            <h3>Encuéntranos en:</h3>
+            <div class="descarga">
+           <img src= "img/store1.png">
+           <img src= "img/store2.png">
+        </div>
+        </div>
+    </div>
+    </footer>
+
+    </body>
+</html>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+.tablaej{
+    background-color: #FFFF00;
+    border-bottom: dotted #ff0000;
+    border-collapse: collapse;
+     }
+    .tablaej th{
+     color: #ff0000;
+     word-spacing: 200px;
+     }
+    .tablaej th, td{
+    border: 1px dotted #0a0a0a;
+     text-align: center;
+     }
+     #negrilla{
+     font-size: 40px;
+     font-style: italic;
+     text-align: center;
+     }
+

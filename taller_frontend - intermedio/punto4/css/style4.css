@@ -1,0 +1,31 @@
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=arial narrow&display=swap');
+
+*{
+    font-family: 'arial narrow';
+}
+
+body{
+    background-color: #202020;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.titulo{
+    color: #f5f5dc;
+   }
+
+.rojo{
+    color: #ff0000;
+    }
+
+.azul{
+    color: #01b5f8;
+   }
+
+.colores{
+    font-size: 50px;
+}
+
+
+
